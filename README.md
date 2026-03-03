@@ -35,7 +35,7 @@ oscar-2026/
 
 ## 🌐 Acesso
 
-🔗 **[Abrir site](https://wilsonvinic.github.io/oscar-2026)**
+🔗 **[Abrir site](https://wilsonwagn.github.io/oscar-2026)**
 
 ---
 
