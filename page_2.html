@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Categorias - Aposta Oscar 2026 | Wilson &amp; Vinicius</title>
+<link rel="stylesheet" href="css/shared.css"/>
+<link rel="stylesheet" href="css/page2.css"/>
+</head>
+<body>
+<div class="page">
+
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-link">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M8 2L4 6L8 10" stroke="#9A7D0A" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Início
+    </a>
+    <img class="oscar-mini" src="oscars-icon-logo.png" alt="Oscar"/>
+    <a href="page_1.html" class="nav-link">
+      Regras &amp; Prêmios
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2L8 6L4 10" stroke="#9A7D0A" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </a>
+  </nav>
+
+  <header>
+    <h1 class="main-title">Categorias Oscar 2026</h1>
+    <p class="main-subtitle">✦ &nbsp; Wilson &amp; Vinicius &nbsp; ✦</p>
+  </header>
+
+  <div class="player-bar">
+    <span class="player-label">✦ Apostador</span>
+    <input class="player-input" id="playerName" type="text" placeholder="Seu nome..." maxlength="40"/>
+  </div>
+
+  <!-- MELHOR FILME -->
+  <div class="featured-section">
+    <div class="featured-title">
+      🏆 Melhor Filme
+      <span class="badge">★ PRINCIPAL</span>
+      <span class="pick-counter" id="counter-melhor-filme">0 / 3</span>
+    </div>
+    <div class="featured-grid" id="cat-melhor-filme" data-cat="melhor-filme">
+      <div class="film-card" data-film="O Agente Secreto"><span class="film-rank"></span>O Agente Secreto</div>
+      <div class="film-card" data-film="Hamnet: A Vida Antes de Hamlet"><span class="film-rank"></span>Hamnet: A Vida Antes de Hamlet</div>
+      <div class="film-card" data-film="Pecadores"><span class="film-rank"></span>Pecadores</div>
+      <div class="film-card" data-film="Uma Batalha Após a Outra"><span class="film-rank"></span>Uma Batalha Após a Outra</div>
+      <div class="film-card" data-film="Marty Supreme"><span class="film-rank"></span>Marty Supreme</div>
+      <div class="film-card" data-film="Valor Sentimental"><span class="film-rank"></span>Valor Sentimental</div>
+      <div class="film-card" data-film="Bugonia"><span class="film-rank"></span>Bugonia</div>
+      <div class="film-card" data-film="F1: O Filme"><span class="film-rank"></span>F1: O Filme</div>
+      <div class="film-card" data-film="Frankenstein"><span class="film-rank"></span>Frankenstein</div>
+      <div class="film-card" data-film="Sonhos de Trem"><span class="film-rank"></span>Sonhos de Trem</div>
+    </div>
+  </div>
+
+  <div class="categories-grid">
+
+    <div class="cat-block c-royal" data-cat="direcao">
+      <div class="cat-name"><span class="cat-icon">🎥</span>Direção<span class="pick-counter" id="counter-direcao">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Paul T. Anderson"><span class="rank-badge"></span>Paul T. Anderson<span class="nominee-film">- Uma Batalha Após a Outra</span></li>
+        <li class="nominee-item" data-film="Ryan Coogler"><span class="rank-badge"></span>Ryan Coogler<span class="nominee-film">- Pecadores</span></li>
+        <li class="nominee-item" data-film="Chloé Zhao"><span class="rank-badge"></span>Chloé Zhao<span class="nominee-film">- Hamnet</span></li>
+        <li class="nominee-item" data-film="Joachim Trier"><span class="rank-badge"></span>Joachim Trier<span class="nominee-film">- Valor Sentimental</span></li>
+        <li class="nominee-item" data-film="Josh Safdie"><span class="rank-badge"></span>Josh Safdie<span class="nominee-film">- Marty Supreme</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-amber" data-cat="ator">
+      <div class="cat-name"><span class="cat-icon">🧑‍🎤</span>Ator<span class="pick-counter" id="counter-ator">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Wagner Moura"><span class="rank-badge"></span>Wagner Moura<span class="nominee-film">- O Agente Secreto</span></li>
+        <li class="nominee-item" data-film="Leonardo DiCaprio"><span class="rank-badge"></span>Leonardo DiCaprio<span class="nominee-film">- Uma Batalha</span></li>
+        <li class="nominee-item" data-film="Timothée Chalamet"><span class="rank-badge"></span>Timothée Chalamet<span class="nominee-film">- Marty Supreme</span></li>
+        <li class="nominee-item" data-film="Michael B. Jordan"><span class="rank-badge"></span>Michael B. Jordan<span class="nominee-film">- Pecadores</span></li>
+        <li class="nominee-item" data-film="Ethan Hawke"><span class="rank-badge"></span>Ethan Hawke<span class="nominee-film">- Blue Moon</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-violet" data-cat="atriz">
+      <div class="cat-name"><span class="cat-icon">👩‍🎤</span>Atriz<span class="pick-counter" id="counter-atriz">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Jessie Buckley"><span class="rank-badge"></span>Jessie Buckley<span class="nominee-film">- Hamnet</span></li>
+        <li class="nominee-item" data-film="Rose Byrne"><span class="rank-badge"></span>Rose Byrne<span class="nominee-film">- Se Eu Tivesse Pernas</span></li>
+        <li class="nominee-item" data-film="Renate Reinsve"><span class="rank-badge"></span>Renate Reinsve<span class="nominee-film">- Valor Sentimental</span></li>
+        <li class="nominee-item" data-film="Emma Stone"><span class="rank-badge"></span>Emma Stone<span class="nominee-film">- Bugonia</span></li>
+        <li class="nominee-item" data-film="Kate Hudson"><span class="rank-badge"></span>Kate Hudson<span class="nominee-film">- Song Sung Blue</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-teal" data-cat="ator-coadjuvante">
+      <div class="cat-name"><span class="cat-icon">🎭</span>Ator Coadjuvante<span class="pick-counter" id="counter-ator-coadjuvante">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Stellan Skarsgård"><span class="rank-badge"></span>Stellan Skarsgård<span class="nominee-film">- Valor Sentimental</span></li>
+        <li class="nominee-item" data-film="Sean Penn"><span class="rank-badge"></span>Sean Penn<span class="nominee-film">- Uma Batalha</span></li>
+        <li class="nominee-item" data-film="Benicio del Toro"><span class="rank-badge"></span>Benicio del Toro<span class="nominee-film">- Uma Batalha</span></li>
+        <li class="nominee-item" data-film="Delroy Lindo"><span class="rank-badge"></span>Delroy Lindo<span class="nominee-film">- Pecadores</span></li>
+        <li class="nominee-item" data-film="Jacob Elordi"><span class="rank-badge"></span>Jacob Elordi<span class="nominee-film">- Frankenstein</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-crimson" data-cat="atriz-coadjuvante">
+      <div class="cat-name"><span class="cat-icon">🌟</span>Atriz Coadjuvante<span class="pick-counter" id="counter-atriz-coadjuvante">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Teyana Taylor"><span class="rank-badge"></span>Teyana Taylor<span class="nominee-film">- Uma Batalha</span></li>
+        <li class="nominee-item" data-film="Elle Fanning"><span class="rank-badge"></span>Elle Fanning<span class="nominee-film">- Valor Sentimental</span></li>
+        <li class="nominee-item" data-film="Amy Madigan"><span class="rank-badge"></span>Amy Madigan<span class="nominee-film">- A Hora do Mal</span></li>
+        <li class="nominee-item" data-film="Inga Ibsdotter Lilleaas"><span class="rank-badge"></span>Inga Ibsdotter Lilleaas<span class="nominee-film">- Valor Sentimental</span></li>
+        <li class="nominee-item" data-film="Wunmi Mosaku"><span class="rank-badge"></span>Wunmi Mosaku<span class="nominee-film">- Pecadores</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-emerald" data-cat="roteiro-original">
+      <div class="cat-name"><span class="cat-icon">✍️</span>Roteiro Original<span class="pick-counter" id="counter-roteiro-original">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Blue Moon"><span class="rank-badge"></span>Blue Moon</li>
+        <li class="nominee-item" data-film="Foi Apenas Um Acidente"><span class="rank-badge"></span>Foi Apenas Um Acidente</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+        <li class="nominee-item" data-film="Valor Sentimental"><span class="rank-badge"></span>Valor Sentimental</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-smoke" data-cat="roteiro-adaptado">
+      <div class="cat-name"><span class="cat-icon">📖</span>Roteiro Adaptado<span class="pick-counter" id="counter-roteiro-adaptado">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Bugonia"><span class="rank-badge"></span>Bugonia</li>
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Hamnet: A Vida Antes de Hamlet"><span class="rank-badge"></span>Hamnet: A Vida Antes de Hamlet</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Sonhos de Trem"><span class="rank-badge"></span>Sonhos de Trem</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-gold" data-cat="animacao">
+      <div class="cat-name"><span class="cat-icon">🎨</span>Animação<span class="pick-counter" id="counter-animacao">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Arco"><span class="rank-badge"></span>Arco</li>
+        <li class="nominee-item" data-film="Elio"><span class="rank-badge"></span>Elio</li>
+        <li class="nominee-item" data-film="Guerreiras do K-Pop"><span class="rank-badge"></span>Guerreiras do K-Pop</li>
+        <li class="nominee-item" data-film="A Pequena Amélie"><span class="rank-badge"></span>A Pequena Amélie</li>
+        <li class="nominee-item" data-film="Zootopia 2"><span class="rank-badge"></span>Zootopia 2</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-amber" data-cat="figurino">
+      <div class="cat-name"><span class="cat-icon">👗</span>Figurino<span class="pick-counter" id="counter-figurino">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Avatar: Fogo e Cinzas"><span class="rank-badge"></span>Avatar: Fogo e Cinzas</li>
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Hamnet: A Vida Antes de Hamlet"><span class="rank-badge"></span>Hamnet: A Vida Antes de Hamlet</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-royal" data-cat="fotografia">
+      <div class="cat-name"><span class="cat-icon">📷</span>Fotografia<span class="pick-counter" id="counter-fotografia">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Sonhos de Trem"><span class="rank-badge"></span>Sonhos de Trem</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-violet" data-cat="montagem">
+      <div class="cat-name"><span class="cat-icon">🎞️</span>Montagem<span class="pick-counter" id="counter-montagem">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="F1: O Filme"><span class="rank-badge"></span>F1: O Filme</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Valor Sentimental"><span class="rank-badge"></span>Valor Sentimental</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-teal" data-cat="filme-internacional">
+      <div class="cat-name"><span class="cat-icon">🌍</span>Filme Internacional<span class="pick-counter" id="counter-filme-internacional">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="O Agente Secreto"><span class="rank-badge"></span>O Agente Secreto<span class="country-tag">(Brasil)</span></li>
+        <li class="nominee-item" data-film="Foi Apenas Um Acidente"><span class="rank-badge"></span>Foi Apenas Um Acidente<span class="country-tag">(França)</span></li>
+        <li class="nominee-item" data-film="Valor Sentimental"><span class="rank-badge"></span>Valor Sentimental<span class="country-tag">(Noruega)</span></li>
+        <li class="nominee-item" data-film="Sirât"><span class="rank-badge"></span>Sirât<span class="country-tag">(Espanha)</span></li>
+        <li class="nominee-item" data-film="A Voz de Hind Rajab"><span class="rank-badge"></span>A Voz de Hind Rajab<span class="country-tag">(Tunísia)</span></li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-crimson" data-cat="maquiagem">
+      <div class="cat-name"><span class="cat-icon">💄</span>Maquiagem e Penteado<span class="pick-counter" id="counter-maquiagem">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Kokuho: O Preço da Perfeição"><span class="rank-badge"></span>Kokuho: O Preço da Perfeição</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="Coração de Lutador"><span class="rank-badge"></span>Coração de Lutador: The Smashing Machine</li>
+        <li class="nominee-item" data-film="A Meia-Irmã Feia"><span class="rank-badge"></span>A Meia-Irmã Feia</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-emerald" data-cat="trilha-sonora">
+      <div class="cat-name"><span class="cat-icon">🎵</span>Trilha Sonora Original<span class="pick-counter" id="counter-trilha-sonora">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Bugonia"><span class="rank-badge"></span>Bugonia</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="Hamnet: A Vida Antes de Hamlet"><span class="rank-badge"></span>Hamnet: A Vida Antes de Hamlet</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-smoke" data-cat="casting">
+      <div class="cat-name"><span class="cat-icon">🎤</span>Casting<span class="pick-counter" id="counter-casting">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="O Agente Secreto"><span class="rank-badge"></span>O Agente Secreto</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="Hamnet"><span class="rank-badge"></span>Hamnet: A Vida Antes de Hamlet</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-gold" data-cat="design-producao">
+      <div class="cat-name"><span class="cat-icon">🏛️</span>Design de Produção<span class="pick-counter" id="counter-design-producao">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Hamnet"><span class="rank-badge"></span>Hamnet: A Vida Antes de Hamlet</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="Marty Supreme"><span class="rank-badge"></span>Marty Supreme</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-royal" data-cat="som">
+      <div class="cat-name"><span class="cat-icon">🔊</span>Som<span class="pick-counter" id="counter-som">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Frankenstein"><span class="rank-badge"></span>Frankenstein</li>
+        <li class="nominee-item" data-film="F1: O Filme"><span class="rank-badge"></span>F1: O Filme</li>
+        <li class="nominee-item" data-film="Uma Batalha Após a Outra"><span class="rank-badge"></span>Uma Batalha Após a Outra</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="Sirât"><span class="rank-badge"></span>Sirât</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-amber" data-cat="efeitos-visuais">
+      <div class="cat-name"><span class="cat-icon">✨</span>Efeitos Visuais<span class="pick-counter" id="counter-efeitos-visuais">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Avatar: Fogo e Cinzas"><span class="rank-badge"></span>Avatar: Fogo e Cinzas</li>
+        <li class="nominee-item" data-film="Jurassic World: Recomeço"><span class="rank-badge"></span>Jurassic World: Recomeço</li>
+        <li class="nominee-item" data-film="Pecadores"><span class="rank-badge"></span>Pecadores</li>
+        <li class="nominee-item" data-film="O Ônibus Perdido"><span class="rank-badge"></span>O Ônibus Perdido</li>
+        <li class="nominee-item" data-film="F1: O Filme"><span class="rank-badge"></span>F1: O Filme</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-violet" data-cat="animacao-curta">
+      <div class="cat-name"><span class="cat-icon">🖼️</span>Animação Curta-Metragem<span class="pick-counter" id="counter-animacao-curta">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Butterfly"><span class="rank-badge"></span>Butterfly</li>
+        <li class="nominee-item" data-film="Forevergreen"><span class="rank-badge"></span>Forevergreen</li>
+        <li class="nominee-item" data-film="The Girl Who Cried Pearls"><span class="rank-badge"></span>The Girl Who Cried Pearls</li>
+        <li class="nominee-item" data-film="Retirement Plan"><span class="rank-badge"></span>Retirement Plan</li>
+        <li class="nominee-item" data-film="The Three Sisters"><span class="rank-badge"></span>The Three Sisters</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-teal" data-cat="curta-metragem">
+      <div class="cat-name"><span class="cat-icon">🎬</span>Curta-Metragem<span class="pick-counter" id="counter-curta-metragem">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Butcher's Stain"><span class="rank-badge"></span>Butcher's Stain</li>
+        <li class="nominee-item" data-film="Jane Austen's Period Drama"><span class="rank-badge"></span>Jane Austen's Period Drama</li>
+        <li class="nominee-item" data-film="A Friend of Dorothy"><span class="rank-badge"></span>A Friend of Dorothy</li>
+        <li class="nominee-item" data-film="The Singers"><span class="rank-badge"></span>The Singers</li>
+        <li class="nominee-item" data-film="Two People Exchanging Saliva"><span class="rank-badge"></span>Two People Exchanging Saliva</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-crimson" data-cat="documentario">
+      <div class="cat-name"><span class="cat-icon">📽️</span>Documentário<span class="pick-counter" id="counter-documentario">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Alabama: Presos do Sistema"><span class="rank-badge"></span>Alabama: Presos do Sistema</li>
+        <li class="nominee-item" data-film="Embaixo da Luz de Neon"><span class="rank-badge"></span>Embaixo da Luz de Neon</li>
+        <li class="nominee-item" data-film="Rompendo Rochas"><span class="rank-badge"></span>Rompendo Rochas</li>
+        <li class="nominee-item" data-film="Mr. Nobody Against Putin"><span class="rank-badge"></span>Mr. Nobody Against Putin</li>
+        <li class="nominee-item" data-film="A Vizinha Perfeita"><span class="rank-badge"></span>A Vizinha Perfeita</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-emerald" data-cat="documentario-curta">
+      <div class="cat-name"><span class="cat-icon">📹</span>Doc. Curta-Metragem<span class="pick-counter" id="counter-documentario-curta">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="All Empty Rooms"><span class="rank-badge"></span>All Empty Rooms</li>
+        <li class="nominee-item" data-film="Armed Only with a Camera"><span class="rank-badge"></span>Armed Only with a Camera</li>
+        <li class="nominee-item" data-film="Children No More"><span class="rank-badge"></span>Children No More: "Were and Are Gone"</li>
+        <li class="nominee-item" data-film="The Devil is Busy"><span class="rank-badge"></span>The Devil is Busy</li>
+        <li class="nominee-item" data-film="Perfectly a Strangeness"><span class="rank-badge"></span>Perfectly a Strangeness</li>
+      </ul>
+    </div>
+
+    <div class="cat-block c-gold span2" data-cat="cancao-original">
+      <div class="cat-name"><span class="cat-icon">🎶</span>Canção Original<span class="pick-counter" id="counter-cancao-original">0/3</span></div>
+      <ul class="nominee-list">
+        <li class="nominee-item" data-film="Dear Me"><span class="rank-badge"></span>Dear Me<span class="nominee-film">- Diane Warren: Relentless</span></li>
+        <li class="nominee-item" data-film="Golden"><span class="rank-badge"></span>Golden<span class="nominee-film">- Guerreiras do K-Pop</span></li>
+        <li class="nominee-item" data-film="I Lied to You"><span class="rank-badge"></span>I Lied to You<span class="nominee-film">- Pecadores</span></li>
+        <li class="nominee-item" data-film="Sweet Dreams Of Joy"><span class="rank-badge"></span>Sweet Dreams Of Joy<span class="nominee-film">- Viva Verdi!</span></li>
+        <li class="nominee-item" data-film="Train Dreams"><span class="rank-badge"></span>Train Dreams<span class="nominee-film">- Sonhos de Trem</span></li>
+      </ul>
+    </div>
+
+  </div><!-- end .categories-grid -->
+
+  <footer>✦ &nbsp; Oscar Night 2026 &nbsp; ✦</footer>
+
+  <!-- Conteúdo exclusivo para impressão (gerado por JS) -->
+  <div class="print-only" id="printSection"></div>
+
+</div><!-- end .page -->
+
+<button class="fab-pdf" onclick="gerarPDF()">🖨️ Gerar PDF</button>
+<button class="btn-reset" onclick="resetAll()">↺ Limpar tudo</button>
+
+<script src="js/page2.js"></script>
+</body>
+</html>
