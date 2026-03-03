@@ -238,6 +238,91 @@ body { font-size: 9px; }
 /* ── Print-only section ── */
 .print-only { display: none; }
 
+/* ── MOBILE RESPONSIVE ── */
+@media (max-width: 600px) {
+    body { font-size: 10px; }
+
+    .page { padding: 10px 12px 100px; }
+
+    .main-title { font-size: 1.2rem; letter-spacing: 1px; }
+
+    /* Nav: shrink links on very small screens */
+    .nav-link { font-size: .6rem; letter-spacing: .5px; }
+    .oscar-mini { width: 22px; }
+
+    /* Player bar */
+    .player-bar { padding: 6px 10px; gap: 6px; }
+    .player-input { font-size: .85rem; }
+
+    /* Melhor Filme: 2 colunas para caber na tela */
+    .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .featured-title {
+        font-size: .78rem;
+        letter-spacing: 1px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .film-card {
+        font-size: .72rem;
+        padding: 8px 6px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Categories: 1 coluna por linha no mobile */
+    .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    /* Canção Original deixa de ter span 2 no mobile */
+    .span2 { grid-column: span 1; }
+
+    /* Nominee items: nome completo sem cortar */
+    .nominee-item {
+        font-size: .8rem;
+        padding: 5px 4px;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    /* Nome do filme indicado: quebra para baixo */
+    .nominee-film {
+        display: block;
+        margin-left: 22px;
+        font-size: .7rem;
+    }
+
+    /* Rank badge maior para facilitar o toque */
+    .rank-badge { width: 22px; font-size: .9rem; }
+
+    /* Cat name: contador vai para nova linha se necessário */
+    .cat-name {
+        font-size: .8rem;
+        flex-wrap: wrap;
+    }
+    .pick-counter { margin-left: auto; }
+
+    /* Botões flutuantes: menores no mobile */
+    .fab-pdf {
+        padding: 10px 16px;
+        font-size: .75rem;
+        bottom: 16px; right: 12px;
+    }
+    .btn-reset {
+        padding: 8px 12px;
+        font-size: .65rem;
+        bottom: 16px; left: 12px;
+    }
+}
+
 @media print {
     @page { size: A4; margin: 10mm 12mm; }
     body { font-size: 9px; background: #fff !important; color: #111 !important; }
